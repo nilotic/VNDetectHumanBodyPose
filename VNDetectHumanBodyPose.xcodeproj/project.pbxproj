@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7345EA924AAFADC001A18CC /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7345EA824AAFADC001A18CC /* Logger.swift */; };
+		B7345EAF24AB0624001A18CC /* PoseNetOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7345EAB24AB0624001A18CC /* PoseNetOutput.swift */; };
+		B7345EB024AB0624001A18CC /* PoseNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7345EAC24AB0624001A18CC /* PoseNet.swift */; };
+		B7345EB124AB0624001A18CC /* PoseNetInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7345EAD24AB0624001A18CC /* PoseNetInput.swift */; };
+		B7345EB224AB0624001A18CC /* PoseNetMobileNet075S16FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B7345EAE24AB0624001A18CC /* PoseNetMobileNet075S16FP16.mlmodel */; };
+		B7345EBA24AB06E9001A18CC /* Joint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7345EB424AB06E9001A18CC /* Joint.swift */; };
+		B7345EBB24AB06E9001A18CC /* PoseBuilder+Multiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7345EB524AB06E9001A18CC /* PoseBuilder+Multiple.swift */; };
+		B7345EBC24AB06E9001A18CC /* PoseBuilder+Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7345EB624AB06E9001A18CC /* PoseBuilder+Single.swift */; };
+		B7345EBD24AB06E9001A18CC /* Pose.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7345EB724AB06E9001A18CC /* Pose.swift */; };
+		B7345EBE24AB06E9001A18CC /* PoseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7345EB824AB06E9001A18CC /* PoseBuilder.swift */; };
+		B7345EBF24AB06E9001A18CC /* PoseBuilderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7345EB924AB06E9001A18CC /* PoseBuilderConfiguration.swift */; };
+		B7345EC324AB0833001A18CC /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7345EC124AB0833001A18CC /* CGImageExtension.swift */; };
+		B7345EC424AB0833001A18CC /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7345EC224AB0833001A18CC /* CGPointExtension.swift */; };
+		B7345EC624AB0B54001A18CC /* PoseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7345EC524AB0B54001A18CC /* PoseImageView.swift */; };
 		B7B5A99924A9CA3F0073FA56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5A99824A9CA3F0073FA56 /* AppDelegate.swift */; };
 		B7B5A99B24A9CA3F0073FA56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5A99A24A9CA3F0073FA56 /* SceneDelegate.swift */; };
 		B7B5A99D24A9CA3F0073FA56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5A99C24A9CA3F0073FA56 /* ViewController.swift */; };
@@ -16,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7345EA824AAFADC001A18CC /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B7345EAB24AB0624001A18CC /* PoseNetOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseNetOutput.swift; sourceTree = "<group>"; };
+		B7345EAC24AB0624001A18CC /* PoseNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseNet.swift; sourceTree = "<group>"; };
+		B7345EAD24AB0624001A18CC /* PoseNetInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseNetInput.swift; sourceTree = "<group>"; };
+		B7345EAE24AB0624001A18CC /* PoseNetMobileNet075S16FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoseNetMobileNet075S16FP16.mlmodel; sourceTree = "<group>"; };
+		B7345EB424AB06E9001A18CC /* Joint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joint.swift; sourceTree = "<group>"; };
+		B7345EB524AB06E9001A18CC /* PoseBuilder+Multiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PoseBuilder+Multiple.swift"; sourceTree = "<group>"; };
+		B7345EB624AB06E9001A18CC /* PoseBuilder+Single.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PoseBuilder+Single.swift"; sourceTree = "<group>"; };
+		B7345EB724AB06E9001A18CC /* Pose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pose.swift; sourceTree = "<group>"; };
+		B7345EB824AB06E9001A18CC /* PoseBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseBuilder.swift; sourceTree = "<group>"; };
+		B7345EB924AB06E9001A18CC /* PoseBuilderConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseBuilderConfiguration.swift; sourceTree = "<group>"; };
+		B7345EC124AB0833001A18CC /* CGImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImageExtension.swift; sourceTree = "<group>"; };
+		B7345EC224AB0833001A18CC /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
+		B7345EC524AB0B54001A18CC /* PoseImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseImageView.swift; sourceTree = "<group>"; };
 		B7B5A99524A9CA3F0073FA56 /* VNDetectHumanBodyPose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNDetectHumanBodyPose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B5A99824A9CA3F0073FA56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7B5A99A24A9CA3F0073FA56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +65,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7345EAA24AB0624001A18CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7345EAB24AB0624001A18CC /* PoseNetOutput.swift */,
+				B7345EAC24AB0624001A18CC /* PoseNet.swift */,
+				B7345EAD24AB0624001A18CC /* PoseNetInput.swift */,
+				B7345EAE24AB0624001A18CC /* PoseNetMobileNet075S16FP16.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7345EB324AB06E9001A18CC /* Pose */ = {
+			isa = PBXGroup;
+			children = (
+				B7345EB424AB06E9001A18CC /* Joint.swift */,
+				B7345EB724AB06E9001A18CC /* Pose.swift */,
+				B7345EB924AB06E9001A18CC /* PoseBuilderConfiguration.swift */,
+				B7345EB824AB06E9001A18CC /* PoseBuilder.swift */,
+				B7345EB524AB06E9001A18CC /* PoseBuilder+Multiple.swift */,
+				B7345EB624AB06E9001A18CC /* PoseBuilder+Single.swift */,
+				B7345EC524AB0B54001A18CC /* PoseImageView.swift */,
+			);
+			path = Pose;
+			sourceTree = "<group>";
+		};
+		B7345EC024AB0824001A18CC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B7345EC124AB0833001A18CC /* CGImageExtension.swift */,
+				B7345EC224AB0833001A18CC /* CGPointExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		B7B5A98C24A9CA3F0073FA56 = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +121,11 @@
 				B7B5A99824A9CA3F0073FA56 /* AppDelegate.swift */,
 				B7B5A99A24A9CA3F0073FA56 /* SceneDelegate.swift */,
 				B7B5A99C24A9CA3F0073FA56 /* ViewController.swift */,
+				B7345EA824AAFADC001A18CC /* Logger.swift */,
 				B7B5A99E24A9CA3F0073FA56 /* Main.storyboard */,
+				B7345EB324AB06E9001A18CC /* Pose */,
+				B7345EAA24AB0624001A18CC /* Model */,
+				B7345EC024AB0824001A18CC /* Extension */,
 				B7B5A9A124A9CA400073FA56 /* Assets.xcassets */,
 				B7B5A9A324A9CA400073FA56 /* LaunchScreen.storyboard */,
 				B7B5A9A624A9CA400073FA56 /* Info.plist */,
@@ -137,9 +203,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7345EBE24AB06E9001A18CC /* PoseBuilder.swift in Sources */,
+				B7345EBD24AB06E9001A18CC /* Pose.swift in Sources */,
+				B7345EB024AB0624001A18CC /* PoseNet.swift in Sources */,
 				B7B5A99D24A9CA3F0073FA56 /* ViewController.swift in Sources */,
+				B7345EBB24AB06E9001A18CC /* PoseBuilder+Multiple.swift in Sources */,
+				B7345EBA24AB06E9001A18CC /* Joint.swift in Sources */,
+				B7345EB224AB0624001A18CC /* PoseNetMobileNet075S16FP16.mlmodel in Sources */,
+				B7345EC624AB0B54001A18CC /* PoseImageView.swift in Sources */,
+				B7345EB124AB0624001A18CC /* PoseNetInput.swift in Sources */,
 				B7B5A99924A9CA3F0073FA56 /* AppDelegate.swift in Sources */,
 				B7B5A99B24A9CA3F0073FA56 /* SceneDelegate.swift in Sources */,
+				B7345EAF24AB0624001A18CC /* PoseNetOutput.swift in Sources */,
+				B7345EA924AAFADC001A18CC /* Logger.swift in Sources */,
+				B7345EBC24AB06E9001A18CC /* PoseBuilder+Single.swift in Sources */,
+				B7345EBF24AB06E9001A18CC /* PoseBuilderConfiguration.swift in Sources */,
+				B7345EC424AB0833001A18CC /* CGPointExtension.swift in Sources */,
+				B7345EC324AB0833001A18CC /* CGImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
